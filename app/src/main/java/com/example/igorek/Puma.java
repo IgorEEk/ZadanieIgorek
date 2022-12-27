@@ -1,5 +1,6 @@
 package com.example.igorek;
 
+
 import android.util.Log;
 
 public class Puma extends Cat {
