@@ -5,10 +5,6 @@ import android.util.Log;
 
 import java.util.Locale;
 
-import android.util.Log;
-
-import java.util.Locale;
-
 public class Cat extends Animal {
     int age;
     String name;
@@ -143,5 +139,3 @@ public class Cat extends Animal {
     }
 
 }
-
-
