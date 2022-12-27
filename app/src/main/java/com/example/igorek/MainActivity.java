@@ -16,41 +16,17 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
 
-        myCat = new Cat(3, "Barsik", "Ball", "red");
-        myCat.talk();
-
-        Cat murzik = new Cat(4, "Murzik", "Merzella", "yellow");
-        murzik.talk();
-
-        Cat glasha = new Cat();
-        glasha.age = 1;
-        glasha.name = "Glasha";
-        glasha.breed = "Golosha";
-        glasha.color = "black";
-        glasha.talk();
-
         Cat vaska = new Cat();
         vaska.talk("Meow, meow!");
 
-        Puma puma = new Puma();
-        puma.name = "Leo";
+        Puma bagira = new Puma();
+        bagira.talk();
 
-        puma.breathe();
+        Cat puma = new Cat();
         puma.talk();
-        puma.isAlive = true;
-        Log.i("isAlive", "My name is " + puma.name + " and " + puma.breathe());
-    }
 
-    void method(double x, int y) {
-        int a;
-        a = 1;
-        a = y + 1;
-        double d = x * 2;
-        z = a + y;
-    }
+        Cat murzik = new Lion();
+        murzik.talk();
 
-    void method1() {
-        int a;
-        a = 1;
     }
 }
